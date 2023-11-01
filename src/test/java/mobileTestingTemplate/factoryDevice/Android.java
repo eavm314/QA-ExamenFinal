@@ -14,8 +14,8 @@ public class Android implements IDevice{
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("deviceName","Pixel 6 API 30");
         capabilities.setCapability("platformVersion","11.0");
-        capabilities.setCapability("appPackage","com.simplemobiletools.calendar");
-        capabilities.setCapability("appActivity","com.simplemobiletools.calendar.activities.MainActivity");
+        capabilities.setCapability("appPackage","com.vrproductiveapps.whendo");
+        capabilities.setCapability("appActivity","com.vrproductiveapps.whendo.ui.HomeActivity");
         capabilities.setCapability("platformName","Android");
         capabilities.setCapability("automationName","uiautomator2");
 
